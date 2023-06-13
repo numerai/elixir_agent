@@ -45,14 +45,6 @@ defmodule NewRelic.Mixfile do
       {:castore, ">= 0.1.0"},
       {:jason, "~> 1.0"},
       {:telemetry, "~> 0.4 or ~> 1.0"},
-      # Instrumentation:
-      {:plug, ">= 1.10.4", optional: true},
-      {:plug_cowboy, ">= 2.4.0", optional: true},
-      {:phoenix, ">= 1.5.5", optional: true},
-      {:ecto_sql, ">= 3.4.0", optional: true},
-      {:ecto, ">= 3.4.1", optional: true},
-      {:redix, ">= 0.11.0", optional: true},
-      {:absinthe, ">= 1.5.0", optional: true}
     ]
   end
 
